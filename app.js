@@ -1,11 +1,10 @@
 const Twitter = require('twitter');
 const config = require('./config.js');
 const T = new Twitter(config);
-const qs = ['#bloggersTribe'];
 
 // Set up your count and search parameters
 const params = {
-  q: qs,
+  q: '#bloggerstribe',
   count: 30,
   result_type: 'recent',
   lang: 'en'
