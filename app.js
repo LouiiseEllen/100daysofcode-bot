@@ -4,7 +4,7 @@ const T = new Twitter(config);
 
 // Set up your count and search parameters
 const params = {
-  q: '#bloggerstribe',
+  q: '#beauty',
   count: 30,
   result_type: 'recent',
   lang: 'en'
